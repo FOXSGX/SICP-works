@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <link rel="icon" href="https://sicp.pascal-lab.net/2025/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SICP 年终总结 2025</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Microsoft YaHei', 'Arial', sans-serif;
+            background: linear-gradient(135deg, #7b2683 0%, #a84da8 50%, #7b2683 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 50px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            color: #333;
+        }
+
+        .header {
+            text-align: center;
+            padding: 30px 0;
+            border-bottom: 3px solid #7b2683;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 3em;
+            color: #7b2683;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(123, 38, 131, 0.1);
+        }
+
+        .header .subtitle {
+            font-size: 1.3em;
+            color: #a84da8;
+            font-weight: 300;
+        }
+
+        .section {
+            margin: 35px 0;
+            padding: 25px;
+            background: linear-gradient(to right, rgba(123, 38, 131, 0.05), rgba(168, 77, 168, 0.05));
+            border-left: 4px solid #7b2683;
+            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .section:hover {
+            transform: translateX(5px);
+            box-shadow: 0 5px 15px rgba(123, 38, 131, 0.2);
+        }
+
+        .section p {
+            font-size: 1.3em;
+            line-height: 1.8;
+            color: #444;
+            margin: 8px 0;
+        }
+
+        .highlight {
+            color: #7b2683;
+            font-weight: bold;
+            font-size: 1.15em;
+            text-shadow: 1px 1px 2px rgba(123, 38, 131, 0.1);
+        }
+
+        .emoji {
+            font-size: 1.5em;
+            display: inline-block;
+            margin: 0 5px;
+        }
+
+        .special-moment {
+            background: linear-gradient(135deg, #7b2683, #a84da8);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 40px 0;
+            box-shadow: 0 10px 30px rgba(123, 38, 131, 0.4);
+        }
+
+        .special-moment p {
+            color: white;
+            font-size: 1.4em;
+            margin: 10px 0;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(123, 38, 131, 0.15);
+            border-top: 4px solid #7b2683;
+            text-align: center;
+        }
+
+        .stat-card .number {
+            font-size: 2.5em;
+            color: #7b2683;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .stat-card .label {
+            font-size: 1.1em;
+            color: #666;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 2px solid #e0e0e0;
+        }
+
+        .footer p {
+            font-size: 1.3em;
+            color: #7b2683;
+            margin: 15px 0;
+            font-weight: 500;
+        }
+
+        .footer .signature {
+            font-size: 1.5em;
+            margin-top: 20px;
+            color: #a84da8;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px 20px;
+            }
+
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .section p {
+                font-size: 1.1em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎓 胡展赫 的 SICP 年终总结</h1>
+            <div class="subtitle">2025 · 与代码共舞的日子</div>
+        </div>
+
+        <div class="section">
+            <p>今年你一共做过 <span class="highlight">25</span> 道题</p>
+            <p>共计 <span class="highlight">319小时31分钟</span></p>
+            <p style="margin-top: 15px; color: #666; font-style: italic;">每个重要时刻，SICP都在场 <span class="emoji">📚</span>
+            </p>
+        </div>
+
+        <div class="section">
+            <p style="text-align: center; font-size: 1.4em; color: #7b2683;">
+                <span class="emoji">🗺️</span> 在编程的旷野里你发现了新大陆 <span class="emoji">✨</span>
+            </p>
+        </div>
+
+        <div class="section">
+            <p>今年你一共提交了 <span class="highlight">186</span> 次作业</p>
+            <p>其中 <span class="highlight">hw04</span> 是你的最爱，共提交了 <span class="highlight">24</span> 次</p>
+            <p style="margin-top: 15px; color: #666; font-style: italic;">简直挖到宝啦！<span class="emoji">💎</span></p>
+        </div>
+
+        <div class="special-moment">
+            <p><span class="emoji">🌙</span>
+                10月19日23点，你还在奋战</p>
+            <p>梦境飘出了窗外</p>
+            <p>那一夜的 hw03 一定很难忘 <span class="emoji">💪</span></p>
+        </div>
+
+        <div class="section">
+            <p>12月24日，你提交了 <span class="highlight">25</span> 次作业，那是 <span class="highlight">hw10, lab10</span> </p>
+            <p style="margin-top: 15px; color: #7b2683; font-weight: bold;">再试一次！下一次一定成功！<span class="emoji">🚀</span>
+            </p>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="number">晚上</div>
+                <div class="label">你最爱提交 OJ 的时间</div>
+            </div>
+            <div class="stat-card">
+                <div class="number">20:00-22:00</div>
+                <div class="label">本学期最活跃时间段</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <p>5位助教中，<span class="highlight">naiiren</span> 的题目对你而言最 Evil 😈</p>
+            <p>你一共向 ta 的题目提交了 <span class="highlight">58</span> 次</p>
+            <p style="margin-top: 15px; color: #666; font-style: italic;">真不容易！感谢你的坚持！<span class="emoji">🙏</span></p>
+        </div>
+
+        <div class="footer">
+            <p><span class="emoji">🎉</span> 在你的参与下，你和 SICP 的故事才完整 <span class="emoji">💜</span></p>
+            <p class="signature">—— 愿你在编程的道路上越走越远 ——</p>
+        </div>
+    </div>
+</body>
+
+</html>
